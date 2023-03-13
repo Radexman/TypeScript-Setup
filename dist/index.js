@@ -8,3 +8,5 @@ class User {
     }
 }
 const emilia = new User('emilia@wp.pl', 'emilia');
+emilia.city;
+// Private & Public

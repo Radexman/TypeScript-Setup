@@ -1,8 +1,8 @@
 // Classes
 class User {
-    email: string
+    public email: string
     name: string
-    readonly city: string = 'Opole'
+    private readonly city: string = 'Opole'
     constructor(email: string, name: string) {
         this.email = email;
         this.name = name;
@@ -10,3 +10,6 @@ class User {
 }
 
 const emilia = new User('emilia@wp.pl', 'emilia');
+emilia.city
+
+// Private & Public
